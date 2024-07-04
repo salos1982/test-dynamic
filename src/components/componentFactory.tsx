@@ -3,6 +3,7 @@ import { Schedule } from "../types/site";
 import H1 from "./h1/h1"
 import Text from "./text/text";
 
+//import Calendar from "./calendar/calendar-loader";
 const Calendar = dynamic(() => import("./calendar/calendar"));
 
 

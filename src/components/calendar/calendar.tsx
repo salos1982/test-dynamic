@@ -11,7 +11,7 @@ import styles from "./calendar.module.scss";
 import { Schedule } from "../../types/site";
 import { isWeekdayForSchedule } from "../../utils/scheduleUtils";
 
-interface ICalendar {
+export interface ICalendar {
   className?: string;
   title?: string;
   initialDate: Date;
